@@ -1,4 +1,12 @@
+.sony {
+  width: 80px;
+}
 /* colors */
 .white {
   color: white;
+}
+.bg_hero {
+  object-position: center;
+  object-fit: cover;
+  min-width: 700px;
 }
