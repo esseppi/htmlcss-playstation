@@ -15,113 +15,214 @@
 </head>
 
 <body>
-    <header>
+    <header class="sticky-top">
+        <!-- logo -->
         <div class="div-light bg-dark clearfix">
             <div class="sony p-1 float-end text-end">
                 <img src="img/sony_logo.svg" class="w-75" alt="" srcset="">
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- navigatore -->
+        <nav class="navbar navbar-expand-lg navbar-light bg_light">
             <div class="container-fluid">
-                <div class="navbar-brand">
+                <!-- logo -->
+                <div class="first navbar-brand">
                     <a href="#">
                         <img src="img/play_logo.svg" alt="" srcset="">
                     </a>
                 </div>
+                <!-- right small menu -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- horizontal menu -->
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item dropdown">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg_light">
+                        <li class="nav-item">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
                                 Giochi
                             </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
+                            <ul class="dropdown-menu w-100 m-0 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdown">
+                                <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                            src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                        <span>PlayStation
+                                            5</span></a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                            src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                        <span>PlayStation
+                                            5</span></a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                            src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                        <span>PlayStation
+                                            5</span></a></li>
+                                <hr class="dropdown-divider">
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Hardware
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Servizi
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Novità
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Fai acquisti
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Supporto
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
+                        <ul class="list-group list-group-horizontal d-flex justify-content-center">
+                            <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#">Link</a>
+                            </li>
+                            <li class="list-group-item list-group-item-light"><a class="dropdown-item" href="#">link</a>
+                            </li>
+                        </ul>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Hardware
+                        </a>
+                        <ul class="dropdown-menu w-100 m-0 border-0 rounded-0 text-center"
+                            aria-labelledby="navbarDropdown">
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <hr class="dropdown-divider">
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Servizi
+                        </a>
+                        <ul class="dropdown-menu w-100 m-0 border-0 rounded-0 text-center"
+                            aria-labelledby="navbarDropdown">
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <hr class="dropdown-divider">
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Novità
+                        </a>
+                        <ul class="dropdown-menu w-100 m-0 border-0 rounded-0 text-center"
+                            aria-labelledby="navbarDropdown">
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <hr class="dropdown-divider">
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Fai acquisti
+                        </a>
+                        <ul class="dropdown-menu w-100 m-0 border-0 rounded-0 text-center"
+                            aria-labelledby="navbarDropdown">
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <hr class="dropdown-divider">
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Supporto
+                        </a>
+                        <ul class="dropdown-menu w-100 m-0 border-0 rounded-0 text-center"
+                            aria-labelledby="navbarDropdown">
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                        src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                    <span>PlayStation
+                                        5</span></a></li>
+                            <hr class="dropdown-divider">
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    <li class="list-inline-item"><a class="dropdown-item" href="#">Something else here</a>
+                    </li>
+                    </ul>
+                    </li>
                     </ul>
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="MyPlaystation " aria-label="Search">
+                        <div class="nav-item">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                MyPlaystation
+                            </a>
+                            <ul class="dropdown-menu w-100 m-0 border-0 rounded-0 text-center"
+                                aria-labelledby="navbarDropdown">
+                                <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                            src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                        <span>PlayStation
+                                            5</span></a></li>
+                                <li class="list-inline-item"><a class="dropdown-item" href="#"><img
+                                            src="/img/play-menu-ico.png" class="w-75" alt="" srcset=""> <br>
+                                        <span>PlayStation
+                                            5</span></a></li>
+                            </ul>
+                        </div>
                         <a class="btn btn-dark rounded-pill" href="#">Accedi</a>
 
                         <button class="btn btn-outline" type="submit"><i class="fas fa-search"></i></button>
@@ -131,21 +232,65 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active hero_box">
-                        <img src="img/jumbo-bg.png" class="d-block w-100 bg_hero" alt="...">
-                        <div>
-
-                        </div>
+        <section class="hero container-fluid">
+            <div class="my-container d-flex flex-column justify-content-end">
+                <div class="row">
+                    <div class="col-auto col-sm-8 col-md-7 col-lg-4">
+                        <img src="img/returnal-hero-banner-logo.png" class="returnal my-2" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="row white">
+                    <div class="col-auto col-sm-8 col-md-7 col-lg-4">
+                        <h1 class="my-2">Rompi il cerchio</h1>
+                        <p class="my-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo ipsam dicta,
+                            perspiciatis
+                            culpa
+                            ducimus veniam aspernatur eveniet molestiae consequuntur ullam animi quod suscipit vel
+                            dolor,
+                            modi similique libero aperiam debitis!</p>
+                        <a class="btn btn-danger rounded-pill my-2" href="#">Acquista ora</a>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="my-container my-3">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4 ">
+                <div class="col">
+                    <div class="border rounded-3 border-primary p-1">
+                        <img src="/img/returnal-listing-thumb-01-ps5.jpg" class="rounded-3" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 border-primary p-1">
+                        <img src="/img/returnal-listing-thumb-01-ps5.jpg" class="rounded-3" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 border-primary p-1">
+                        <img src="/img/returnal-listing-thumb-01-ps5.jpg" class="rounded-3" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 border-primary p-1">
+                        <img src="/img/returnal-listing-thumb-01-ps5.jpg" class="rounded-3" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 border-primary p-1">
+                        <img src="/img/returnal-listing-thumb-01-ps5.jpg" class="rounded-3" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="rounded-3 border-primary p-1">
+                        <img src="/img/returnal-listing-thumb-01-ps5.jpg" class="rounded-3" alt="" srcset="">
+                    </div>
+                </div>
 
+            </div>
 
         </section>
     </main>
+
 
 
 
