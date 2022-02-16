@@ -1,12 +1,23 @@
-.bg_light {
-  background-color: white;
-}
-.sony {
+/* dimension */
+.w_80 {
   width: 80px;
 }
-/* colors */
-.white {
-  color: white;
+.w_200 {
+  width: 200px;
+}
+.first {
+  position: relative;
+}
+.my-container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+}
+/* background image */
+.ph_banner {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 .hero {
   background-image: url(../img/jumbo-bg.png);
@@ -15,31 +26,25 @@
   width: 100%;
   height: 650px;
 }
-
-.first {
-  position: relative;
-}
-.my-container {
-  width: 90%;
-  height: 90%;
-  margin: 0 auto;
-}
-.returnal {
-  width: 200px;
-}
 img {
   width: 100%;
   object-fit: cover;
 }
-
-.ph_banner {
-  background-size: cover;
-  background-position: center;
-  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+/* colors */
+.white {
+  color: white;
 }
-
 .my_blue {
   color: blue;
+}
+.bg_light {
+  background-color: white;
+}
+.bg_footer {
+  background-color: #00439b;
+}
+.bg_dark_blue {
+  background-color: #161c3b;
 }
 .bg_gray {
   background-color: #999999;
@@ -47,5 +52,3 @@ img {
 .bg_l_gray {
   background-color: lightgray;
 }
-
-/* ESPLORA PLAYSTATION 4 */
