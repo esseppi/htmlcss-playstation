@@ -29,4 +29,23 @@
 }
 img {
   width: 100%;
+  object-fit: cover;
 }
+
+.ph_banner {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+.my_blue {
+  color: blue;
+}
+.bg_gray {
+  background-color: #999999;
+}
+.bg_l_gray {
+  background-color: lightgray;
+}
+
+/* ESPLORA PLAYSTATION 4 */
